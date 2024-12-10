@@ -1,0 +1,79 @@
+@charset "utf-8";
+@import url("Windows_Regular/stylesheet.css");
+@import url("Windows_Regular/stylesheet.css");
+
+
+/* CSS Document */
+body {
+    background-image: url(assets/backgrounds/index.gif);
+    
+    cursor: url('assets/cursors/wiicursor.png'), auto;
+}
+
+@font-face {
+    font-family: "Windows_Regular"; 
+    src: url("assets/fonts/Windows_Regular.ttf") format("truetype");
+    
+}
+
+p {
+	font-family: 'Windows_Regular';
+}
+
+ul {
+	font-family:'Windows_Regular';
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style-image: url('assets/misc/finger_pointing.gif');
+}  
+li:before {
+        
+    margin-right: 0.5em;
+  }
+  
+
+a {
+    color: white;
+}
+a:hover {
+    cursor: url('assets/cursors/wiihelp.png'), auto;
+}
+
+.wrapper {
+	display: flex;
+}
+
+.sidebar {
+    height: 600px;
+    width: 300px;
+    left: 100px;
+    top: 100px;
+    position: fixed;
+    margin: 0 auto;
+    background-color: #463A3A;
+    text-align: center;
+    font-family: "Windows Regular";
+    font-style: normal;
+}
+
+.main-content {
+	flex: 1;
+	padding: 0px;
+}
+
+.buttons {
+    margin: 0 auto;
+    text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  .rainbow {
+  animation: color-change 5s infinite;
+}
+
+
